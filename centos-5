@@ -1,0 +1,40 @@
+yum list installed openssl | tail -1 && openssl version && openssl ciphers -v | column -t
+openssl.x86_64                   0.9.8e-26.el5_9.1                    installed
+OpenSSL 0.9.8e-fips-rhel5 01 Jul 2008
+DHE-RSA-AES256-SHA       SSLv3  Kx=DH        Au=RSA   Enc=AES(256)   Mac=SHA1
+DHE-DSS-AES256-SHA       SSLv3  Kx=DH        Au=DSS   Enc=AES(256)   Mac=SHA1
+AES256-SHA               SSLv3  Kx=RSA       Au=RSA   Enc=AES(256)   Mac=SHA1
+KRB5-DES-CBC3-MD5        SSLv3  Kx=KRB5      Au=KRB5  Enc=3DES(168)  Mac=MD5
+KRB5-DES-CBC3-SHA        SSLv3  Kx=KRB5      Au=KRB5  Enc=3DES(168)  Mac=SHA1
+EDH-RSA-DES-CBC3-SHA     SSLv3  Kx=DH        Au=RSA   Enc=3DES(168)  Mac=SHA1
+EDH-DSS-DES-CBC3-SHA     SSLv3  Kx=DH        Au=DSS   Enc=3DES(168)  Mac=SHA1
+DES-CBC3-SHA             SSLv3  Kx=RSA       Au=RSA   Enc=3DES(168)  Mac=SHA1
+DES-CBC3-MD5             SSLv2  Kx=RSA       Au=RSA   Enc=3DES(168)  Mac=MD5
+DHE-RSA-AES128-SHA       SSLv3  Kx=DH        Au=RSA   Enc=AES(128)   Mac=SHA1
+DHE-DSS-AES128-SHA       SSLv3  Kx=DH        Au=DSS   Enc=AES(128)   Mac=SHA1
+AES128-SHA               SSLv3  Kx=RSA       Au=RSA   Enc=AES(128)   Mac=SHA1
+RC2-CBC-MD5              SSLv2  Kx=RSA       Au=RSA   Enc=RC2(128)   Mac=MD5
+KRB5-RC4-MD5             SSLv3  Kx=KRB5      Au=KRB5  Enc=RC4(128)   Mac=MD5
+KRB5-RC4-SHA             SSLv3  Kx=KRB5      Au=KRB5  Enc=RC4(128)   Mac=SHA1
+RC4-SHA                  SSLv3  Kx=RSA       Au=RSA   Enc=RC4(128)   Mac=SHA1
+RC4-MD5                  SSLv3  Kx=RSA       Au=RSA   Enc=RC4(128)   Mac=MD5
+RC4-MD5                  SSLv2  Kx=RSA       Au=RSA   Enc=RC4(128)   Mac=MD5
+KRB5-DES-CBC-MD5         SSLv3  Kx=KRB5      Au=KRB5  Enc=DES(56)    Mac=MD5
+KRB5-DES-CBC-SHA         SSLv3  Kx=KRB5      Au=KRB5  Enc=DES(56)    Mac=SHA1
+EDH-RSA-DES-CBC-SHA      SSLv3  Kx=DH        Au=RSA   Enc=DES(56)    Mac=SHA1
+EDH-DSS-DES-CBC-SHA      SSLv3  Kx=DH        Au=DSS   Enc=DES(56)    Mac=SHA1
+DES-CBC-SHA              SSLv3  Kx=RSA       Au=RSA   Enc=DES(56)    Mac=SHA1
+DES-CBC-MD5              SSLv2  Kx=RSA       Au=RSA   Enc=DES(56)    Mac=MD5
+EXP-KRB5-RC2-CBC-MD5     SSLv3  Kx=KRB5      Au=KRB5  Enc=RC2(40)    Mac=MD5   export
+EXP-KRB5-DES-CBC-MD5     SSLv3  Kx=KRB5      Au=KRB5  Enc=DES(40)    Mac=MD5   export
+EXP-KRB5-RC2-CBC-SHA     SSLv3  Kx=KRB5      Au=KRB5  Enc=RC2(40)    Mac=SHA1  export
+EXP-KRB5-DES-CBC-SHA     SSLv3  Kx=KRB5      Au=KRB5  Enc=DES(40)    Mac=SHA1  export
+EXP-EDH-RSA-DES-CBC-SHA  SSLv3  Kx=DH(512)   Au=RSA   Enc=DES(40)    Mac=SHA1  export
+EXP-EDH-DSS-DES-CBC-SHA  SSLv3  Kx=DH(512)   Au=DSS   Enc=DES(40)    Mac=SHA1  export
+EXP-DES-CBC-SHA          SSLv3  Kx=RSA(512)  Au=RSA   Enc=DES(40)    Mac=SHA1  export
+EXP-RC2-CBC-MD5          SSLv3  Kx=RSA(512)  Au=RSA   Enc=RC2(40)    Mac=MD5   export
+EXP-RC2-CBC-MD5          SSLv2  Kx=RSA(512)  Au=RSA   Enc=RC2(40)    Mac=MD5   export
+EXP-KRB5-RC4-MD5         SSLv3  Kx=KRB5      Au=KRB5  Enc=RC4(40)    Mac=MD5   export
+EXP-KRB5-RC4-SHA         SSLv3  Kx=KRB5      Au=KRB5  Enc=RC4(40)    Mac=SHA1  export
+EXP-RC4-MD5              SSLv3  Kx=RSA(512)  Au=RSA   Enc=RC4(40)    Mac=MD5   export
+EXP-RC4-MD5              SSLv2  Kx=RSA(512)  Au=RSA   Enc=RC4(40)    Mac=MD5   export
