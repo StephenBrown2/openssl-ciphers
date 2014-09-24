@@ -1,5 +1,5 @@
 yum list installed openssl | tail -1 && openssl version && openssl ciphers -v | column -t
-openssl.x86_64                   0.9.8e-27.el5_10.3                    installed
+openssl.x86_64                   0.9.8e-27.el5_10.4                    installed
 OpenSSL 0.9.8e-fips-rhel5 01 Jul 2008
 DHE-RSA-AES256-SHA       SSLv3  Kx=DH        Au=RSA   Enc=AES(256)   Mac=SHA1
 DHE-DSS-AES256-SHA       SSLv3  Kx=DH        Au=DSS   Enc=AES(256)   Mac=SHA1
